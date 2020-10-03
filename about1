@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+ 
+    <style>
+ .t-logo
+{
+    
+    float: left;
+    margin-left: 0;
+    margin-top: 1%
+}
+.t-logo img{
+    width: 18%;
+    height: 1%;
+    border-radius: 50%;
+}
+
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+    color: ivory;
+}
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li{
+    list-style: none;
+}
+.navbar-links li a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+
+.navbar-links li:hover{
+    background:#2bab0d;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="index.css"
+    <div class="back"></div>  
+      <nav class="navbar">
+        <div class="t-logo">  <img src="flag.png">  </div>
+       
+        <div class="navbar-links">
+            <ul>
+              
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="career.html">Career</a>
+           
+                </li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+             </ul>
+        </div>
+
+
+    </nav>
+    <marquee> INDIAN NCC</marquee>
+    <!---<img src="a1.png" width="1000" height="510"><br>-->
+    <img src="./logo.jpg">
+    <h1><u>NATIONAL CADET CORPS</u> </h1><br>
+    <center><h2>AIM OF NCC</h2></center>
+    <p>The ‘Aims’ of the NCC laid out in 1988 have stood the test of time and continue to meet the requirements expected of it in the current socio–economic scenario of the country. 
+        The NCC aims at developing character, comradeship, discipline, a secular outlook, the spirit.</p>
+        <script src="navs.js"></script>
+</body>
+</html>
